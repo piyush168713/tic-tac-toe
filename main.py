@@ -31,9 +31,9 @@ def playMove():
                 else:
                     print("Sorry this space is occupied")
             else:
-                print("Please type the number within the range")
+                print("Please type the number within the range ")
         except:
-            print("Please type a number. ")
+            print("Please type a number: ")
 def compMove():
     possibleMoves = [x for x, letter in enumerate(board) if letter == ' ' and x != 0]
     move = 0
